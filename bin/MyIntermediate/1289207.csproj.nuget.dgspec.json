@@ -11,7 +11,7 @@
         "projectName": "1289207",
         "projectPath": "C:\\NuGetProj\\IssueRepro\\1289207\\1289207.csproj",
         "packagesPath": "C:\\Users\\eryondon\\.nuget\\packages\\",
-        "outputPath": "C:\\NuGetProj\\IssueRepro\\1289207\\Intermediate\\",
+        "outputPath": "C:\\NuGetProj\\IssueRepro\\1289207\\bin\\MyIntermediate\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -28,7 +28,8 @@
           "C:\\NuGetProj\\Mypackages": {},
           "C:\\Users\\eryondon\\Documents\\My Web Sites": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://apidev.nugettest.org/v3-index/index.json": {}
+          "https://apidev.nugettest.org/v3-index/index.json": {},
+          "https://www.myget.org/F/silvenga/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.999\\RuntimeIdentifierGraph.json"
         }
       }
     }

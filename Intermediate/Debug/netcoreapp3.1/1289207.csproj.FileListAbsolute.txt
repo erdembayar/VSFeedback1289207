@@ -1,9 +1,0 @@
-C:\NuGetProj\IssueRepro\1289207\Binaries\Debug\netcoreapp3.1\1289207.deps.json
-C:\NuGetProj\IssueRepro\1289207\Binaries\Debug\netcoreapp3.1\1289207.dll
-C:\NuGetProj\IssueRepro\1289207\Binaries\Debug\netcoreapp3.1\1289207.pdb
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.csprojAssemblyReference.cache
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.AssemblyInfoInputs.cache
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.AssemblyInfo.cs
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.csproj.CoreCompileInputs.cache
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.dll
-C:\NuGetProj\IssueRepro\1289207\Intermediate\Debug\netcoreapp3.1\1289207.pdb

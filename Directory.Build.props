@@ -2,4 +2,18 @@
   <PropertyGroup>
     <BaseIntermediateOutputPath>Intermediate</BaseIntermediateOutputPath>
   </PropertyGroup>
+  <!-- Common properties -->
+  <PropertyGroup>
+    <!-- SolutionDir is not defined when building projects explicitly -->
+    <SolutionDir Condition=" '$(SolutionDir)' == '' ">$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), 1289207.sln))\</SolutionDir>
+    <!-- Output paths -->
+    <BaseIntermediateOutputPath>$(SolutionDir)bin\obj\$(Configuration)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(SolutionDir)bin\obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
+    <!-- https://github.com/dotnet/msbuild/issues/1603#issuecomment-460756513 -->
+    <!-- <MSBuildProjectExtensionsPath>$(IntermediateOutputPath)\</MSBuildProjectExtensionsPath> -->
+    <MSBuildProjectExtensionsPath>$(SolutionDir)bin\MyIntermediate\</MSBuildProjectExtensionsPath>
+    <OutputPath>$(SolutionDir)bin\out\$(Configuration)\</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <DocumentationFile>$(SolutionDir)bin\doc\$(Configuration)\$(MSBuildProjectName).xml</DocumentationFile>
+  </PropertyGroup>  
 </Project>
